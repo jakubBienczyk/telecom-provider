@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@Entity
+@Entity(name = "phone_number")
 @NoArgsConstructor
 @AllArgsConstructor
 public class PhoneNumber {
